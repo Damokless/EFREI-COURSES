@@ -1,0 +1,6 @@
+<app-nav-bar></app-nav-bar>
+<div>
+  <h1 *ngIf="changeText===false" class="title">Welcome to myShop !</h1>
+  <h1 *ngIf="changeText===true" class="title2">Lot of surprises are waiting for you</h1>
+</div>
+<app-items-list (changeText)="changeTextParent($event)" style="display: flex;"></app-items-list>
