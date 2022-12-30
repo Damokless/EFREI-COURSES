@@ -1,0 +1,44 @@
+{
+  "name": "cx-search-github-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timberzzman/cx-search-in-github.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "express",
+    "postgresSQL",
+    "sequelize"
+  ],
+  "author": "Elouan MAILLY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timberzzman/cx-search-in-github/issues"
+  },
+  "homepage": "https://github.com/timberzzman/cx-search-in-github#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5"
+  }
+}
