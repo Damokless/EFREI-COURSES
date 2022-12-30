@@ -1,12 +1,46 @@
-# EFREI COURSES
+# 📋 Description
+Making a React.js site using an Api.
 
-Bonjour à toi voyageur de l'internet mondial,
-Ici, tu trouveras " tous " les projets de développement que j'ai pu faire pendant mon année de L3 jusqu'au M2 (2020 - 2023).
+Expected features :
+- Display random element(s) via the api
+- Save & Delete elements in the localStorage
+- Navigation to the Favorites page
+- Display of Favorite items
+- Dark mode ( Using Context )
+- Installation of a Package of your choice
+- Design
+- Responsive
+- Code cleanliness
+- Deployment
 
-# Comment naviguer sur ce répo ?
+# 📥 Installation
 
-Alors c'est plutôt simple, chaque branche correspond à un projet. Donc si tu veux accéder à un projet bah tu clone la branche.
+1) Download or clone the git
+2) If you download the file, Unzip it.
 
-# DISCLAIMER
+# 👨‍💻 Usage
 
-Certains projets, ont été réalisés au tout début de mon apprentissage du développement, je sais que ce n'est pas une excuse, mais je préfère prévenir parce que certaines choses peuvent heurter ta sensibilité. ( j'ai presque vomi en voyant ce que je produisais avant, je te rassure je produit toujours du code plus ou moins douteux )
+### 1. Install dependencies 
+#### To run the react app please follow the instructions below.
+1) Open console
+2) at the root of the project folder
+3) Run
+```nodejs
+npm install 
+```
+
+### 2. Start react app
+#### To run the react app please follow the instructions below.
+1) Open console
+2) at the root of the project folder
+3) Run the app
+```nodejs
+npm run start 
+```
+# 🖥  Deploy
+site deployed using [Vercel](https://vercel.com/)
+
+[https://react-spacex.vercel.app/](https://react-spacex.vercel.app/)
+
+# 🧑‍🤝‍🧑  Contributing
+Project created by [Damokles](https://github.com/Damokless)
