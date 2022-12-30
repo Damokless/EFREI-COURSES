@@ -1,12 +1,57 @@
-# EFREI COURSES
+# 📋 Description
 
-Bonjour à toi voyageur de l'internet mondial,
-Ici, tu trouveras " tous " les projets de développement que j'ai pu faire pendant mon année de L3 jusqu'au M2 (2020 - 2023).
+Project created in node.js v15.3.0 with :
 
-# Comment naviguer sur ce répo ?
+ ### Front-end :
 
-Alors c'est plutôt simple, chaque branche correspond à un projet. Donc si tu veux accéder à un projet bah tu clone la branche.
+  - React
+  - React-dom
+  - React-scripts
+  - TailwindCSS
+  - FontAwesome
+  - Web-Vitals
+  - Fetch
 
-# DISCLAIMER
+ ### back-end :
 
-Certains projets, ont été réalisés au tout début de mon apprentissage du développement, je sais que ce n'est pas une excuse, mais je préfère prévenir parce que certaines choses peuvent heurter ta sensibilité. ( j'ai presque vomi en voyant ce que je produisais avant, je te rassure je produit toujours du code plus ou moins douteux )
+  - Body-parser
+  - Cors
+  - Express
+  - Knex
+  - PG
+  - PostgreSQL
+
+The objective of this project is to create a Pokedex using react for the client (front-end), knex and express for the server (back-end).
+
+# 📥 Installation
+
+1) Download or clone the git
+2) If you download the file, Unzip it.
+
+# 👨‍💻 Usage
+
+### 1. Json to sql
+#### To pass the .json file into the postgreSQL database please follow the instructions below.
+1) Go to the folder named " server "
+2) Run the script db
+```nodejs
+npm run db
+```
+### 2. Start API server
+#### To run the API please follow the instructions below.
+1) Go to the folder named " server "
+2) Make the following command (you must enter a port ex. 4242)
+```nodejs
+npm start 4242
+```
+### 3. Start react app
+#### To run the react app please follow the instructions below.
+1) Open another console
+2) Go to the folder named " client "
+3) Run the app
+```nodejs
+npm start 
+```
+
+# 🧑‍🤝‍🧑  Contributing
+Project created by [Timberzzman](https://github.com/timberzzman) and [Damokles](https://github.com/Damokless)
