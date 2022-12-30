@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "brand": "Nissan",
+        "model": "GTR r34",
+        "power": "250ch"
+    },
+    {
+        "id": 2,
+        "brand": "Toyota",
+        "model": "Supra MK4",
+        "power": "280ch"
+    }
+]
