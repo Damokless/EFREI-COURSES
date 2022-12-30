@@ -1,0 +1,37 @@
+<app-nav-bar></app-nav-bar>
+<h1 *ngIf="cart.length === 0">votre panier est vide</h1>
+<div *ngIf="cart.length > 0">
+  <table id="cart">
+    <tr>
+      <th>Product</th>
+      <th>Picture</th>
+      <th>Specifications</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Modify</th>
+    </tr>
+    <tr  *ngFor="let product of tmpCart">
+      <td>{{product.name}}</td>
+      <td><img src="assets/productImg/{{product.picture}}" alt="{{product.name}}" style="height: 164px;"></td>
+      <td>
+        <ul>
+          <li>color: {{product.specifications.color}}</li>
+          <li>weight: {{product.specifications.weight}}</li>
+          <li>storage: {{product.specifications.storage}}</li>
+          <li>price: {{product.specifications.price}}</li>
+        </ul>
+      </td>
+      <td>{{product.number}}</td>
+      <td>{{product.totalPrice}}</td>
+      <td><button (click)="addProduct(product.id)">+</button>&nbsp;<button (click)="removeProduct(product.id)">-</button></td>
+    </tr>
+  </table>
+  <div class="total">
+    <h2>Your order :</h2>
+    <ol>
+      <li *ngFor="let product of tmpCart">{{product.number}} {{product.name}} : {{product.totalPrice}}$</li>
+    </ol>
+    <hr>
+    <p class="textTotal">Total = {{totalCart}}$</p>
+  </div>
+</div>

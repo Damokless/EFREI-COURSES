@@ -1,0 +1,3 @@
+<div *ngFor="let product of productList">
+  <app-item [product]="product" (changeText)="changeTextParent($event)"></app-item>
+</div>
